@@ -56,15 +56,23 @@
 		E24312AD2461B11E00EB79FF /* ImageFilterEditor2 */ = {
 			isa = PBXGroup;
 			children = (
-				E24312AE2461B11E00EB79FF /* AppDelegate.swift */,
-				E24312B02461B11E00EB79FF /* SceneDelegate.swift */,
+				E24312C22461B13800EB79FF /* Resources */,
 				E24312B22461B11E00EB79FF /* ViewController.swift */,
 				E24312B42461B11E00EB79FF /* Main.storyboard */,
+			);
+			path = ImageFilterEditor2;
+			sourceTree = "<group>";
+		};
+		E24312C22461B13800EB79FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E24312AE2461B11E00EB79FF /* AppDelegate.swift */,
+				E24312B02461B11E00EB79FF /* SceneDelegate.swift */,
 				E24312B72461B12100EB79FF /* Assets.xcassets */,
 				E24312B92461B12100EB79FF /* LaunchScreen.storyboard */,
 				E24312BC2461B12100EB79FF /* Info.plist */,
 			);
-			path = ImageFilterEditor2;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8825K9HH49;
-				INFOPLIST_FILE = ImageFilterEditor2/Info.plist;
+				INFOPLIST_FILE = ImageFilterEditor2/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8825K9HH49;
-				INFOPLIST_FILE = ImageFilterEditor2/Info.plist;
+				INFOPLIST_FILE = ImageFilterEditor2/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
